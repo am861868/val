@@ -8,3 +8,10 @@ body {
     width: 100%; 
     height: 100%; 
 } 
+.vid{
+
+    overflow: hidden;
+    width: 100%; 
+    height: 100%; 
+    position: centre;
+}
