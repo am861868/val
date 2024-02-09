@@ -7,4 +7,9 @@ video {
   .question{
 
     text-align: center;
+    position: relative;
+  }
+  .btn{
+    position: absolute;
+    right:50%;
   }
