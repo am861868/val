@@ -8,6 +8,6 @@ function clicked() {
     divTwo.remove();
 
     const newButton = document.createElement("button")
-    newButton.innerText = "Psych!! You're stuck with me!"
+    newButton.innerText = "Psych!! You're stuck with me either way!"
     contain.appendChild(newButton)
   }
