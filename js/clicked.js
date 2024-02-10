@@ -1,10 +1,13 @@
 function clicked() {
     const divTwo = document.getElementById("two")
     const divOne = document.getElementById("one")
-    
+    const contain = document.getElementById("contain")
+
+
+    divOne.remove();
+    divTwo.remove();
+
     const newButton = document.createElement("button")
-    newButton.innerText = "pSYCH"
-    
-    divOne.appendChild(newButton)
-    divTwo.children[1].remove()
+    newButton.innerText = "Psych!! You're stuck with me!"
+    contain.appendChild(newButton)
   }
